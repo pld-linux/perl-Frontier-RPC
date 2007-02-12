@@ -6,7 +6,7 @@
 %define	pdir	Frontier
 %define	pnam	RPC
 Summary:	Frontier::RPC2 - encode/decode RPC2 format XML
-Summary(pl):	Frontier::RPC2 - kodowanie/dekodowanie formatu XML RPC2
+Summary(pl.UTF-8):   Frontier::RPC2 - kodowanie/dekodowanie formatu XML RPC2
 Name:		perl-Frontier-RPC
 Version:	0.07
 Release:	0.1
@@ -27,12 +27,12 @@ client module for making requests to a server and several server
 modules for implementing servers using CGI, Apache, and standalone
 with HTTP::Daemon.
 
-%description -l pl
+%description -l pl.UTF-8
 Frontier::RPC implementuje XML RPC (Remote Procedure Calls - zdalne
-wywo≥ania przy uøyciu jÍzyku XML) UserLand Software. Frontier::RPC
-zawiera zarÛwno modu≥ kliencki do wysy≥ania ø±daÒ do serwera, a takøe
-kilka modu≥Ûw serwerowych do implementowania serwerÛw przy uøyciu CGI,
-Apache'a, a takøe samodzielnie z uøyciem HTTP::Daemon.
+wywo≈Çania przy u≈ºyciu jƒôzyku XML) UserLand Software. Frontier::RPC
+zawiera zar√≥wno modu≈Ç kliencki do wysy≈Çania ≈ºƒÖda≈Ñ do serwera, a tak≈ºe
+kilka modu≈Ç√≥w serwerowych do implementowania serwer√≥w przy u≈ºyciu CGI,
+Apache'a, a tak≈ºe samodzielnie z u≈ºyciem HTTP::Daemon.
 
 %prep
 %setup -q -n Frontier-RPC-%{version}b4
