@@ -6,7 +6,7 @@
 %define	pdir	Frontier
 %define	pnam	RPC
 Summary:	Frontier::RPC2 - encode/decode RPC2 format XML
-Summary(pl.UTF-8):   Frontier::RPC2 - kodowanie/dekodowanie formatu XML RPC2
+Summary(pl.UTF-8):	Frontier::RPC2 - kodowanie/dekodowanie formatu XML RPC2
 Name:		perl-Frontier-RPC
 Version:	0.07
 Release:	0.1
