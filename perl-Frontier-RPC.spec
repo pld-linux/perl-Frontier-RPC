@@ -9,8 +9,9 @@ Summary:	Frontier::RPC2 - encode/decode RPC2 format XML
 Summary(pl.UTF-8):	Frontier::RPC2 - kodowanie/dekodowanie formatu XML RPC2
 Name:		perl-Frontier-RPC
 Version:	0.07
-Release:	0.1
-License:	distributable
+Release:	1
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/K/KM/KMACLEOD/Frontier-RPC-%{version}b4.tar.gz
 # Source0-md5:	c04582da604f11bdbe60606738f92457
