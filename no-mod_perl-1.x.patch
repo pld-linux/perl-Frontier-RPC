@@ -1,0 +1,10 @@
+--- Frontier-RPC-0.07b4/lib/Apache/XMLRPC.pm~	2002-08-03 02:48:06.000000000 +0200
++++ Frontier-RPC-0.07b4/lib/Apache/XMLRPC.pm	2020-05-10 13:57:52.819507622 +0200
+@@ -10,7 +10,6 @@
+ 
+ package Apache::XMLRPC;
+ 
+-use Apache::Constants qw(:common);
+ use Frontier::RPC2;
+ 
+ sub handler {

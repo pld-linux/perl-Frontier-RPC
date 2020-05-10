@@ -8,12 +8,13 @@ Summary:	Frontier::RPC2 - encode/decode RPC2 format XML
 Summary(pl.UTF-8):	Frontier::RPC2 - kodowanie/dekodowanie formatu XML RPC2
 Name:		perl-Frontier-RPC
 Version:	0.07
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/K/KM/KMACLEOD/Frontier-RPC-%{version}b4.tar.gz
 # Source0-md5:	c04582da604f11bdbe60606738f92457
+Patch0:		no-mod_perl-1.x.patch
 URL:		https://metacpan.org/pod/Frontier::RPC2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -37,6 +38,7 @@ Apache'a, a także samodzielnie z użyciem HTTP::Daemon.
 
 %prep
 %setup -q -n Frontier-RPC-%{version}b4
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
